@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    
+    font-family: 'Libre Caslon Text', serif;
+    background: url(imgs/restaurant.jpg) no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body.hover-eat {
+    background: url(imgs/eat.jpg) no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Libre Caslon Text', serif;
+    color: white;
+}
+
+body.hover-drink {
+    background: url(imgs/drink.jpg) no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Libre Caslon Text', serif;
+    color: white;
+}
+
+
+body.hover-visit {
+    background: url(imgs/visit.jpg) no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Libre Caslon Text', serif;
+    color: white;
+    
+  }
+
+
+h1 {
+    padding: 1%;
+    color: white;
+}
+
+.center-text{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10%;
+    font-weight: bold;
+}
+
+.center-text>p{
+    padding: 5%;
+    font-size: 3em;
+    color: white;
+    cursor: pointer;
+}
+
+
+.center-text>p:hover{ 
+ text-decoration: underline;
+}
