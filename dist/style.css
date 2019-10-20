@@ -1,75 +1,124 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text&display=swap');
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    
+@import url("https://fonts.googleapis.com/css?family=Libre+Caslon+Text&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    
-    font-family: 'Libre Caslon Text', serif;
-    background: url(imgs/restaurant.jpg) no-repeat fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  font-family: "Libre Caslon Text", serif;
+  background: url(imgs/restaurant.jpg) no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: black
 }
-
+body.white {
+  font-family: "Libre Caslon Text", serif;
+  background: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 body.hover-eat {
-    background: url(imgs/eat.jpg) no-repeat fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    font-family: 'Libre Caslon Text', serif;
-    color: white;
-}
+  background: url(imgs/eat.jpg) no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Libre Caslon Text", serif;
+  background-color: black}
 
 body.hover-drink {
-    background: url(imgs/drink.jpg) no-repeat fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    font-family: 'Libre Caslon Text', serif;
-    color: white;
-}
-
+  background: url(imgs/drink.jpg) no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Libre Caslon Text", serif;
+  background-color: black}
 
 body.hover-visit {
-    background: url(imgs/visit.jpg) no-repeat fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    font-family: 'Libre Caslon Text', serif;
-    color: white;
-    
-  }
-
+  background: url(imgs/visit.jpg) no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Libre Caslon Text", serif;
+  background-color: black}
 
 h1 {
-    padding: 1%;
-    color: white;
+  padding: 1%;
+  color: white;
+  font-weight: normal;
+  cursor: pointer;
 }
 
-.center-text{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    margin-top: 10%;
-    font-weight: bold;
+h1.clicked {
+  color: black;
+  font-weight: normal;
+  cursor: pointer;
 }
 
-.center-text>p{
-    padding: 5%;
-    font-size: 3em;
-    color: white;
-    cursor: pointer;
+h3 {
+  padding-bottom: 10px;
+  font-size: 32px;
+  padding-bottom: 30px;
+  font-weight: normal;
 }
 
+button {
+  text-align: center;
+  letter-spacing: 2.5px;
+  margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 10px;
+  font-size: 15px;
+  width: 200px;
+  height: 47px;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  cursor: pointer;
+  background-color: white;
+}
 
-.center-text>p:hover{ 
- text-decoration: underline;
+.center-text {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 10%;
+  font-weight: bold;
+}
+
+.secondPage {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 10%;
+  font-weight: normal;
+  flex-direction: column;
+}
+
+.secondPage > p {
+  padding: 17px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.center-text > p {
+  padding: 5%;
+  font-size: 3em;
+  color: white;
+  cursor: pointer;
+}
+
+.center-text > p:hover {
+  text-decoration: underline;
 }

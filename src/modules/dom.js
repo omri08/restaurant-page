@@ -1,11 +1,13 @@
 // creating the DOM
-function domInhit() {
+function domInhit(firstShow) {
+document.body.classList = '';
+
 
 let container = document.querySelector('.container');
-
 let textLogo = document.createElement('h1');
 textLogo.innerText = 'L o r e m';
 container.appendChild(textLogo);
+
 
 
 let centerText = document.createElement('div');
